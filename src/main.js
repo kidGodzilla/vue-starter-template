@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 
 import VueRouter from 'vue-router'
+import VueResource from 'vue-resource'
 import VueBootstrap from 'bootstrap-vue'
 
 import HelloWorld from './components/HelloWorld.vue'
@@ -10,6 +11,7 @@ import Location from './components/Location.vue'
 Vue.config.productionTip = false
 
 Vue.use(VueRouter)
+Vue.use(VueResource)
 Vue.use(VueBootstrap)
 
 const routes = [
