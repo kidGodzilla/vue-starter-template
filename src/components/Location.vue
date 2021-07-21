@@ -18,8 +18,7 @@
       <b-spinner variant="primary" type="grow" class="mt-5"></b-spinner>
 
     </div>
-
-
+    
   </div>
 </template>
 
