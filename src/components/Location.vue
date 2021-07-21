@@ -6,7 +6,7 @@
 
       <p>{{ loc.location }} ({{ loc.ip }}) – Using the MaxMind GeoIp Lite Database</p>
 
-      <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" :src="googleMapsUrl"></iframe></div>
+      <iframe width="100%" height="600" frameborder="0" scrolling="no" :src="googleMapsUrl"></iframe>
     </div>
     <div v-else>
       <h1 class="mb-2">{{ msg }}</h1>
