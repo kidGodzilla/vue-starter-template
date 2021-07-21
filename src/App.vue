@@ -44,10 +44,12 @@ export default {
     }
   },
   mounted() {
-    let style = document.createElement('link')
-    style.href = 'https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.0.2/zephyr/bootstrap.min.css'
-    style.rel = "stylesheet"
-    style.type = "text/css"
+    // Inject a stylesheet if it absolutely has to be after the bootstrap-vue import
+    // Alternative: vue-dom-injector
+    // let style = document.createElement('link')
+    // style.href = 'https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.0.2/zephyr/bootstrap.min.css'
+    // style.rel = "stylesheet"
+    // style.type = "text/css"
     // document.head.appendChild(style)
 
     setInterval(() => {
