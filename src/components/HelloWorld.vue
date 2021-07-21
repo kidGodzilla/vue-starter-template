@@ -10,11 +10,11 @@
     </p>
     <h3 class="mb-2">Installed Plugins</h3>
     <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
 
-      <li><strong>bootstrap-vue</strong></li>
+      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
+      <li><a href="https://bootstrap-vue.org/" target="_blank" rel="noopener">bootstrap-vue</a></li>
     </ul>
 <!--    <h3>Essential Links</h3>-->
 <!--    <ul>-->
@@ -26,9 +26,9 @@
 <!--    </ul>-->
     <h3 class="mb-2">Ecosystem</h3>
     <ul>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
+      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener"><del>vuex</del></a></li>
+      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener"><del>vue-loader</del></a></li>
       <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
