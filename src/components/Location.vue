@@ -4,7 +4,7 @@
     <div v-if="loc.location">
       <h3 class="mb-2">Location Found</h3>
 
-      <p>{{ loc.location }} ({{ loc.ip }})</p>
+      <p>{{ loc.location }} ({{ loc.ip }}) – Using the MaxMind GeoIp Lite Database</p>
 
       <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" :src="googleMapsUrl"></iframe></div>
     </div>
@@ -18,7 +18,7 @@
       <b-spinner variant="primary" type="grow" class="mt-5"></b-spinner>
 
     </div>
-    
+
   </div>
 </template>
 
